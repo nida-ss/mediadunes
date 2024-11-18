@@ -1,0 +1,120 @@
+.pricing-section {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.pricing-section h1 {
+  font-size: 44px;
+  font-weight: 700;
+  color: #4D3EE9;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.pricing-section p {
+  font-size: 22px;
+  font-weight: 700;
+  color: #312948B2;
+  margin-bottom: 70px;
+}
+
+.pricing-card {
+  background-color: #F2E7FE;
+  padding: 30px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  position: relative;
+  text-align: left;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.05);
+  /* height: 100%; */
+}
+
+.pricing-card .tag {
+  /* position: absolute; */
+  margin-top: 0px;
+ margin-bottom: 20px;
+  background-color: #4D3EE9;
+  width: 161px;
+  color: white;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  border-radius: 5px;
+}
+
+.pricing-card h3 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 42px;
+  color: #312948F5;
+  margin-bottom: 10px;
+}
+
+.pricing-card h2 {
+  font-size: 22px;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.pricing-card .original-price {
+  text-decoration: line-through;
+  color: #a5a5a5;
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+.pricing-card ul {
+  padding: 0;
+  margin: 0 0 20px;
+  
+}
+
+.pricing-card ul li {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  color: #6F697F;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.tick-mark {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+ outline: 1.5px solid #4D3EE9;
+  color: #4D3EE9;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* font-size: 0.8rem; */
+  margin-right: 10px;
+}
+
+.demo-btnn {
+  background-color: #4D3EE9;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  /* transition: background-color 0.3s; */
+  width: 100%;
+}
+
+.demo-btnn:hover {
+  background-color: #0E009D;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+.pricing-section h1{
+  font-size: 20px;
+}
+.pricing-section p{
+  font-size: 12px;
+}
+}

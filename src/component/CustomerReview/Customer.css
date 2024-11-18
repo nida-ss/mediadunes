@@ -1,0 +1,129 @@
+/* CustomerReviewsCarousel.css */
+
+.reviews-carousel {
+    background: #F2E7FE;
+    padding: 2rem;
+}
+
+.reviews-carousel h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #4D3EE9;
+    margin-bottom: 20px;
+}
+
+.review-card {
+    width: 100%;
+    max-width: 644px;
+    height: auto;
+    min-height: 450px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+
+.review-text {
+    font-size: 1.4rem;
+    line-height: 1.6;
+    font-weight: 700;
+    color: #333;
+    margin: 10px 0;
+    flex-grow: 1;
+}
+
+.reviewer-info {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reviewer-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.reviewer-name {
+    font-weight: bold;
+    color: #444;
+}
+
+.reviewer-position {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.arrow-button {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #4D3EE9;
+}
+
+.arrow-button:hover {
+    color: #333;
+}
+
+/* Tablet view */
+@media (max-width: 768px) {
+    .reviews-carousel h2 {
+        font-size: 2rem;
+    }
+
+    .review-card {
+        max-width: 100%;
+        min-height: 400px;
+        padding: 15px;
+    }
+
+    .review-text {
+        font-size: 1.2rem;
+        line-height: 1.4;
+    }
+
+    .arrow-button {
+        font-size: 1.3rem;
+    }
+}
+
+/* Mobile view */
+@media (max-width: 576px) {
+    .reviews-carousel {
+        padding: 1rem;
+    }
+
+    .reviews-carousel h2 {
+        font-size: 1.8rem;
+    }
+
+    .review-card {
+        padding: 10px;
+        min-height: 350px;
+    }
+
+    .review-text {
+        font-size: 1rem;
+    }
+
+    .arrow-button {
+        display: none;
+        /* font-size: 1.2rem; */
+    }
+
+    .reviewer-info {
+        flex-direction: column;
+    }
+
+    .reviewer-image {
+        margin-bottom: 8px;
+    }
+}

@@ -1,0 +1,96 @@
+* {
+    font-family:  Montserrat;
+    
+}
+
+.top-banner {
+    background-color: #0E009D;
+    color: white;
+    height: 35px;
+}
+
+.navbar {
+    background-color: #F2E7FE;
+    height: 90px;
+}
+
+.navbar-brand .media-text {
+    font-weight: bold;
+    color: #d09b72;
+    font-size: 30px;
+}
+
+.navbar-brand .dunes-text {
+    font-weight: bold;
+    color: #f0e6db;
+    font-size: 40px;
+}
+
+.nav-link {
+    font-size: 15px;
+    font-weight: 600;
+    color: #0E009D !important;
+}
+
+.nav-link:hover {
+    color: black !important;
+}
+
+.btn-light {
+    background-color: #4D3EE9;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+}
+
+
+
+/* toggler */
+/* Navbar Toggler */
+.navbar-toggler {
+    background-color: white;
+    border: none; /* Removes default border */
+    padding: 8px; /* Adds padding for better touch accessibility */
+}
+/* Toggler focus state for accessibility */
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5); /* Light blue shadow on focus */
+}
+
+
+
+
+/* media query */
+
+/* On screens that are 992px or less, set the background color to blue */
+
+@media (min-width: 992px) {
+    
+    
+    .nev-link{
+        font-size: 10px;
+        
+    }
+}
+@media only screen and (max-device-width: 1024px) {
+    .logo{
+        width: 115.2px;
+        height: 40px;
+    }
+    .nav-link{
+        font-size: 10px;
+   
+    }
+}
+@media screen and (max-width: 600px) {
+    .navbar{
+        height: 96px;
+    }
+    .logo{
+
+        width: 112px;
+        height: 38px;
+    }
+
+}

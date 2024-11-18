@@ -1,0 +1,98 @@
+/* Section Title and Description */
+.section-title {
+    color: #0E009D;
+    font-weight: 400;
+  }
+  
+  .section-description {
+    font-weight: 400;
+    font-size: 35px;
+    color: #0E009D;
+  }
+  
+  /* Container for Cards */
+  .section-container {
+    margin-bottom: 80px;
+  }
+  
+  /* Card Styling */
+  .workflow-card, .you-are-card {
+    background-color: #F2E7FE;
+    border-radius: 10px;
+    height: 600px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .Card-title {
+    color: #0E009D;
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .workflow-text {
+    margin: 7px;
+    font-size: 26px;
+    font-weight: 600;
+  }
+  
+  /* Arrow Section */
+  .arrow-section {
+    text-align: center;
+  }
+  
+  .arrow-icon {
+    margin-bottom: 2rem;
+    color: #0E009D; /* Optional: set color to match theme */
+  }
+  
+/* media query */
+ /* For screens 768px and below */
+@media (max-width: 1100px) {
+  
+}
+@media (max-width: 800px) {
+  .section-title {
+    font-size: 14px; /* Adjust title size */
+  }
+  
+  .section-description {
+    font-size: 1rem; /* Adjust description size */
+  }
+  
+  .section-container {
+    flex-direction: column;
+    align-items: center; /* Center content */
+  }
+  
+  .workflow-card, .you-are-card {
+    margin-bottom: 1.5rem;
+  }
+
+  .arrow-section {
+    display: none; /* Hide arrows on smaller screens */
+  }
+}
+
+/* For screens 576px and below */
+@media (max-width: 576px) {
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .Card-title {
+    font-size: 14px;
+  }
+
+  .workflow-text {
+    font-size: 26px;
+  }
+
+  .workflow-card, .you-are-card {
+    padding: 15px;
+  }
+}

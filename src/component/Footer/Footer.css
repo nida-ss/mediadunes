@@ -1,0 +1,140 @@
+.footer {
+    background-color: #0E009D;
+    padding: 60px;
+    color: #fff;
+    
+  }
+  
+  .footer-content h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .footer-buttons {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .demo-btn,
+  .contact-btn {
+    background-color: #fff;
+    color: #402f1d;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .demo-btn:hover{
+   
+    color: #fff;
+    outline:2px solid white;
+    background-color: #0E009D ;
+    
+  }
+  
+  .contact-btn:hover {
+    background-color: #0E009D;
+    outline:2px solid white;
+
+    color: white;
+    /* border:  2px #fff; */
+  }
+  
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    border-top: 1px solid #B7B7B7;
+  }
+   
+.footer-bottom{
+  border-top: 1px solid #B7B7B7;
+}
+
+  .footer-logo {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .logo-part {
+    color: #d0a475;
+  }
+  
+  .footer-logo-address {
+    flex-basis: 40%;
+    font-size: 32px;
+  }
+  
+  .footer-logo-address p {
+    margin: 5px 0;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .footer-links {
+    display: flex;
+    flex-basis: 50%;
+    justify-content: space-around;
+    
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+    
+  }
+  
+  .footer-links ul li {
+    margin-bottom: 10px;
+    color: white;
+    cursor: pointer;
+    
+  }
+
+  
+  .footer-links ul li:hover {
+    text-decoration: underline white;
+
+  }
+
+  @media screen and (max-width: 992px) {
+    
+
+}
+
+
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+    .footer-links ul li{
+      font-size: 6px;
+      line-height: 7.2px;
+    }
+    .footer-logo-address p{
+      font-size: 8px;
+      font-weight: 600;
+    }
+    .demo-btn,
+    .contact-btn {
+      /* width: 75px;
+      height: 21px; */
+      font-size: 7px;
+    }
+    .footer-content h2{
+      font-size: 14px;
+    }
+    .footer{
+      padding: 30px;
+    }
+    .footer-logo{
+        width: 63px;
+        height: 22px;
+    }
+
+}
